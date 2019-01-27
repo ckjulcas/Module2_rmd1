@@ -48,3 +48,25 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Note how we can change figure width and height
+```{r pressure2,  fig.width=5, fig.height=5, echo=FALSE}
+plot(pressure)
+```
+
+## Tables with Kable
+
+```{r}
+head(cars)
+```
+
+### Tables with Kable packages
+```{r cars2, }
+knitr::kable(head(cars), caption = "top six cars dataset")
+```
+
+## Equations
+
+$$Y_i = \beta_0 + \beta_1x_i + \epsilon_i$$
+
+
