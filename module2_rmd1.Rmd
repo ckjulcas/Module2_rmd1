@@ -67,6 +67,33 @@ knitr::kable(head(cars), caption = "top six cars dataset")
 
 ## Equations
 
+Here is footnote reference [^11] 
+
 $$Y_i = \beta_0 + \beta_1x_i + \epsilon_i$$
 
+## Images
+
+Inserting image from local drive
+
+![imagefunny](image.PNG)
+
+Inserting images from web link
+
+![logo](https://rviews.rstudio.com/post/2017-01-23-r-markdown-for-the-enterprise_files/rmarkdown.png)
+
+
+## Insert an Animated gif and video
+
+![my gif](gif/mi67gjt.gif)
+
+
+## Footnotes
+
+
+Here is footnote reference [^1] and  another[^longnote]
+here is a inline footnote ^[in line notes are easier to write]
+
+[^1]: my first footnote
+[^11]: test footnote
+[^longnote]: here's one with multiple blocks
 
