@@ -1,0 +1,52 @@
+---
+title: "Module 2 - RevealJS presentation"
+author: Christian J
+date: "27 Enero 2019"
+output: 
+    revealjs::revealjs_presentation:
+      transition: zoom
+      theme: sky
+      highlight: kate
+      center: true
+---
+
+## R Markdown
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+## Slide with Bullets
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
+## Slide with R Code and Output
+
+```{r}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+## Slide with a image
+
+Inserting image from local drive
+
+![imagefunny](image.PNG)
+
+## Slide with table
+```{r cars2, }
+knitr::kable(head(cars), caption = "top six cars dataset")
+```
+
+## Slide with equations
+
+
+$$Y_i = \beta_0 + \beta_1x_i + \epsilon_i$$
+
